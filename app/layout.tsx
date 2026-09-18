@@ -6,6 +6,7 @@ const sora = Sora({ subsets: ["latin"], variable: "--font-display", weight: ["40
 const inter = Inter({ subsets: ["latin"], variable: "--font-body", weight: ["400", "500", "600"] });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://portfolio-blond-one-wj94fwejzf.vercel.app"),
   title: "David Livingston - Full-Stack Engineer",
   description:
     "Full-stack engineer building AI workflow automation for support teams. 5+ years in production systems: Angular, React, Next.js, Node.js, TypeScript, GraphQL, AWS.",
