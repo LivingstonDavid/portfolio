@@ -44,6 +44,13 @@ export default function Contact() {
             >
               Contra
             </a>
+            <a
+              href="https://www.upwork.com/freelancers/~016655d4fdb98c5664"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Upwork
+            </a>
           </div>
         </Reveal>
       </div>

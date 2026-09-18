@@ -34,6 +34,11 @@ export default function Hero() {
           </div>
         </Reveal>
         <Reveal delay={360}>
+          <div className="hero-socials">
+            <a href="https://www.linkedin.com/in/david-livingston-2720ab151/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            <a href="https://github.com/LivingstonDavid" target="_blank" rel="noopener noreferrer">GitHub</a>
+            <a href="mailto:r.nani211998@gmail.com">r.nani211998@gmail.com</a>
+          </div>
           <div className="hero-stats">
             <div className="hero-stat">
               <b>
@@ -49,9 +54,9 @@ export default function Hero() {
             </div>
             <div className="hero-stat">
               <b>
-                01
+                24<em>h</em>
               </b>
-              <span>solo-built live demo</span>
+              <span>reply to scope your queue</span>
             </div>
           </div>
         </Reveal>
