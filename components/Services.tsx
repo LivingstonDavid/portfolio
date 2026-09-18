@@ -21,7 +21,7 @@ export default function Services() {
       <div className="container">
         <Reveal>
           <div className="section-head">
-            <p className="kicker">Services</p>
+            <p className="kicker"><span className="kick-num">02</span>Services</p>
             <h2>What I build for support teams.</h2>
             <p>Fixed scope, clear price, working software - the same automation I build full-time, packaged for your queue.</p>
           </div>

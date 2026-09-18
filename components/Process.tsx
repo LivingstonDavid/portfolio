@@ -21,7 +21,7 @@ export default function Process() {
       <div className="container">
         <Reveal>
           <div className="section-head">
-            <p className="kicker">How I work</p>
+            <p className="kicker"><span className="kick-num">06</span>How I work</p>
             <h2>Scope, build, hand over. That&apos;s it.</h2>
           </div>
         </Reveal>

@@ -6,7 +6,7 @@ export default function Experience() {
       <div className="container">
         <Reveal>
           <div className="section-head">
-            <p className="kicker">Experience</p>
+            <p className="kicker"><span className="kick-num">03</span>Experience</p>
             <h2>Where I've built.</h2>
           </div>
         </Reveal>

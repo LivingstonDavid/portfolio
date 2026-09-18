@@ -6,7 +6,7 @@ export default function Project() {
       <div className="container">
         <Reveal>
           <div className="section-head">
-            <p className="kicker">Featured Work</p>
+            <p className="kicker"><span className="kick-num">05</span>Featured Work</p>
             <h2>Don't take my word for it. Click around.</h2>
           </div>
         </Reveal>

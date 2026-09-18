@@ -4,6 +4,7 @@ export default function Hero() {
   return (
     <section className="hero" id="top">
       <div className="hero-glow" />
+      <div className="hero-glow-2" />
       <div className="container hero-content">
         <Reveal>
           <span className="hero-eyebrow">

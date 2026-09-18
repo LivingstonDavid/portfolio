@@ -6,7 +6,7 @@ export default function Skills() {
       <div className="container">
         <Reveal>
           <div className="section-head">
-            <p className="kicker">Skills</p>
+            <p className="kicker"><span className="kick-num">04</span>Skills</p>
             <h2>The toolbox, battle-tested.</h2>
             <p>Everything listed here has run in production, not just in tutorials.</p>
           </div>

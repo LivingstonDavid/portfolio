@@ -6,7 +6,7 @@ export default function About() {
       <div className="container">
         <Reveal>
           <div className="section-head">
-            <p className="kicker">About</p>
+            <p className="kicker"><span className="kick-num">01</span>About</p>
             <h2>Engineer first, automation specialist by focus.</h2>
           </div>
         </Reveal>
