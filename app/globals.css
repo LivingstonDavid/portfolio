@@ -643,3 +643,82 @@ footer {
   .footer-grid { grid-template-columns: 1fr; gap: 1.8rem; }
   .marquee-item { font-size: 0.92rem; }
 }
+
+/* ---------- services ---------- */
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.4rem;
+}
+.service-card {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 20px;
+  padding: 2rem;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.25s, border-color 0.25s, box-shadow 0.25s;
+}
+.service-card::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 2rem; right: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, var(--accent), transparent);
+  transition: right 0.35s ease;
+}
+.service-card:hover { transform: translateY(-5px); border-color: rgba(230, 194, 122, 0.35); box-shadow: 0 18px 44px rgba(0, 0, 0, 0.4); }
+.service-card:hover::before { right: 2rem; }
+.service-num {
+  font-family: var(--font-display), Georgia, serif;
+  font-style: italic;
+  font-size: 1.05rem;
+  font-weight: 500;
+  color: var(--accent);
+  letter-spacing: 0.1em;
+  display: block;
+  margin-bottom: 1.2rem;
+}
+.service-card h3 { font-size: 1.32rem; margin-bottom: 0.75rem; font-weight: 600; }
+.service-card p { color: var(--muted); font-size: 0.98rem; }
+
+/* ---------- process ---------- */
+.process {
+  background: var(--bg-soft);
+  border-top: 1px solid var(--line-soft);
+  border-bottom: 1px solid var(--line-soft);
+}
+.process-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.4rem;
+}
+.process-step {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 20px;
+  padding: 2rem;
+  height: 100%;
+  position: relative;
+  transition: transform 0.25s, border-color 0.25s, box-shadow 0.25s;
+}
+.process-step:hover { transform: translateY(-5px); border-color: rgba(230, 194, 122, 0.35); box-shadow: 0 18px 44px rgba(0, 0, 0, 0.4); }
+.process-num {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  border: 1px solid rgba(230, 194, 122, 0.55);
+  color: var(--accent);
+  font-family: var(--font-display), Georgia, serif;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 1.05rem;
+  margin-bottom: 1.3rem;
+  background: var(--accent-soft);
+}
+.process-step h3 { font-size: 1.32rem; margin-bottom: 0.75rem; font-weight: 600; }
+.process-step p { color: var(--muted); font-size: 0.98rem; }
