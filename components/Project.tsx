@@ -35,9 +35,9 @@ export default function Project() {
                 canvas, then watch the workflow chew through a live ticket queue.
               </p>
               <ul className="project-points">
-                <li>Designed, built and deployed solo - product, frontend, backend, infra</li>
-                <li>Next.js, Node.js, TypeScript, LLM orchestration, AWS</li>
-                <li>Classification, confidence scores, drafted replies, live results dashboard</li>
+                <li>Portfolio demo of an agentic ITSM workflow builder. Built with Next.js and TypeScript, deployed on Vercel with GitHub CI. I own and maintain it</li>
+                <li>Next.js, React, TypeScript, GitHub Actions, Vercel</li>
+                <li>Runs on synthetic data with simulated AI steps (swappable provider for a real LLM)</li>
               </ul>
               <div className="project-links">
                 <a
